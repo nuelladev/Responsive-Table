@@ -1,0 +1,60 @@
+/* this is just a basic styling */
+.top {
+    background-color: rgb(26, 3, 71);
+    color: white;
+    transition: background-color 0.3s ease-in; 
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+}
+
+
+.table-header {
+    background-color: rgba(52, 152, 219, 0.8);
+    color: white;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+
+.styled-table tbody tr {
+    border: 1px solid #6904dc;
+}
+
+
+.styled-table td {
+    border: 1px solid #200101;
+    padding: 12px;
+    text-align: left;
+}
+
+.styled-table tbody tr:hover {
+    background-color: rgba(52, 152, 219, 0.5);
+}
+
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url('./new.jpg'); 
+    background-size: cover;
+}
